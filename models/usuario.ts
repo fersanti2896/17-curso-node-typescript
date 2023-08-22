@@ -5,12 +5,12 @@ const Usuario = db.define('Usuario', {
     nombre: {
         type: DataTypes.STRING
     },
-    email: {
+    correo: {
         type: DataTypes.STRING
     },
     estado: {
         type: DataTypes.BOOLEAN
-    }
+    },
 });
 
 export default Usuario;
